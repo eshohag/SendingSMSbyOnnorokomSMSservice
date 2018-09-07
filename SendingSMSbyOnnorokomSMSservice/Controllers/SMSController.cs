@@ -33,7 +33,7 @@ namespace SendingSMSbyOnnorokomSMSservice.Controllers
                 return Content(ex.Message);
             }
 
-            return Content("Faild");
+            return Content("Failed");
         }
     }
 }
